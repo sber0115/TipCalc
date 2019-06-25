@@ -1,6 +1,6 @@
-# Project 1 - TipCalc
+# Project 1 - TipCalculator
 
-**Tip Calc** is a tip calculator application for iOS.
+**Tip Calculator** is a tip calculator application for iOS.
 
 Submitted by: **Your Name Here**
 
