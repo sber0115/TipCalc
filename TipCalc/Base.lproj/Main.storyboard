@@ -10,6 +10,21 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="crc-rp-KQS">
+            <objects>
+                <viewController id="xet-bo-1AX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7MF-dN-YXE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NhA-q9-tRF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e3f-OM-fJa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1819" y="21"/>
+        </scene>
         <!--Tips-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -90,7 +105,14 @@
                             <outletCollection property="gestureRecognizers" destination="htG-aT-B3J" appends="YES" id="jQC-3b-RWN"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tips" id="AjS-dK-ceV"/>
+                    <navigationItem key="navigationItem" title="Tips" id="AjS-dK-ceV">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="uHn-QG-0l3">
+                            <connections>
+                                <action selector="showSettings:" destination="BYZ-38-t0r" id="QBG-CQ-6ca"/>
+                                <segue destination="xet-bo-1AX" kind="show" id="PtD-v1-4IR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mealBillField" destination="AEs-Hc-rla" id="QaP-br-vrX"/>
                         <outlet property="tipControl" destination="JyX-af-HDH" id="bwu-mO-tF7"/>

@@ -15,6 +15,7 @@
 		78DDF66B22C2C1230073C420 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DDF66A22C2C1230073C420 /* main.m */; };
 		78DDF67522C2C1230073C420 /* TipCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DDF67422C2C1230073C420 /* TipCalcTests.m */; };
 		78DDF68022C2C1230073C420 /* TipCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DDF67F22C2C1230073C420 /* TipCalcUITests.m */; };
+		78DDF68F22C2E2ED0073C420 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DDF68E22C2E2ED0073C420 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		78DDF67B22C2C1230073C420 /* TipCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DDF67F22C2C1230073C420 /* TipCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalcUITests.m; sourceTree = "<group>"; };
 		78DDF68122C2C1230073C420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DDF68D22C2E2ED0073C420 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		78DDF68E22C2E2ED0073C420 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				78DDF65E22C2C1230073C420 /* ViewController.h */,
 				78DDF65F22C2C1230073C420 /* ViewController.m */,
 				78DDF66122C2C1230073C420 /* Main.storyboard */,
+				78DDF68D22C2E2ED0073C420 /* SettingsViewController.h */,
+				78DDF68E22C2E2ED0073C420 /* SettingsViewController.m */,
 				78DDF66422C2C1230073C420 /* Assets.xcassets */,
 				78DDF66622C2C1230073C420 /* LaunchScreen.storyboard */,
 				78DDF66922C2C1230073C420 /* Info.plist */,
@@ -265,6 +270,7 @@
 				78DDF66022C2C1230073C420 /* ViewController.m in Sources */,
 				78DDF66B22C2C1230073C420 /* main.m in Sources */,
 				78DDF65D22C2C1230073C420 /* AppDelegate.m in Sources */,
+				78DDF68F22C2E2ED0073C420 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

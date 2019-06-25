@@ -22,8 +22,11 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+ //   self.title = @"Tip Calculator";
     // Do any additional setup after loading the view.
 }
 - (IBAction)onTap:(id)sender {
